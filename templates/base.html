@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+        />
+        <title>Sentiment Analysis</title>
+        <link
+            rel="stylesheet"
+            href="static/assets/bootstrap/css/bootstrap.min.css"
+        />
+        <link rel="stylesheet" href="static/assets/css/styles.css" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <script
+            src="https://kit.fontawesome.com/aa437aad1a.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+
+    <body>
+        <div class="dark-light">
+            <svg
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="1.5"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+            >
+                <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
+            </svg>
+        </div>
+        <header>
+            <div class="logo">Padam Sharma</div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Projects</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        </header>
+        <h1 class="text-center" style="margin: 80px 0px 0px">
+            Sentiment Analysis
+        </h1>
+        <h1 class="text-center">using ALBERT</h1>
+        {%block inputSentence%} {%endblock%}
+        <script src="static/assets/js/jquery.min.js"></script>
+        <script src="static/assets/js/index.js"></script>
+        <script src="static/assets/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>

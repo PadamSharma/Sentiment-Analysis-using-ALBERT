@@ -1,0 +1,9 @@
+{% extends 'base.html' %} {% block inputSentence %}
+<div class="ml-container">
+<h2>
+	{% set l = out.split('?')%}
+	{{l[0]}}
+</h2>
+<h1 class="sentiment">{{l[1]}}</h1>
+</div>
+{% endblock %}

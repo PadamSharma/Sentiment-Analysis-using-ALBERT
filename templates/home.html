@@ -1,0 +1,19 @@
+{% extends 'base.html' %} {% block inputSentence %}
+<div class="ml-container">
+    <form action="{{ url_for('predict')}}" method="POST">
+        <p>Enter Your Message Here</p>
+        <div class="text-input">
+            <input
+                name="message"
+                type="text"
+                id="input1"
+                placeholder="Try typing something in here!"
+            />
+            <label for="input1">Try me!</label>
+        </div>
+        <br />
+
+        <input type="submit" class="btn-info" value="Predict" />
+    </form>
+</div>
+{% endblock %}
